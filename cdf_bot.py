@@ -13,8 +13,8 @@ import anthropic
 # 🔑 ضع مفاتيحك هنا
 # ============================================================
 TELEGRAM_TOKEN   = "8471318227:AAHjcMJiLi3HxcyEXsy707tLA5MU4OQSHIY"
-ANTHROPIC_API_KEY = "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"
-# ============================================================
+ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY")# 
+============================================================
 
 logging.basicConfig(
     format="%(asctime)s - %(levelname)s - %(message)s",
