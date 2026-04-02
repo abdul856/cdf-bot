@@ -4,6 +4,7 @@
 يرد على استفسارات فريق الدعم بناءً على قاعدة المعرفة المعتمدة
 """
 
+import os
 import logging
 from telegram import Update
 from telegram.ext import ApplicationBuilder, MessageHandler, filters, ContextTypes
