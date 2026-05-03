@@ -6,8 +6,8 @@ from telegram.ext import ApplicationBuilder, MessageHandler, filters, ContextTyp
 from openai import OpenAI
 
 # قراءة المتغيرات من البيئة بشكل آمن
-TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
-DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY")
+TELEGRAM_TOKEN = os.getenv("8471318227:AAHjcMJiLi3HxcyEXsy707tLA5MU4OQSHIY")
+DEEPSEEK_API_KEY = os.getenv("sk-a15e7a03e3ee4e6aa79ff139ef464e79")
 
 # التحقق من وجود المتغيرات
 if not TELEGRAM_TOKEN:
