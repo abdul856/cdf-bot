@@ -14,7 +14,7 @@ import anthropic
 # 🔑 ضع مفاتيحك هنا
 # ============================================================
 TELEGRAM_TOKEN   = "8471318227:AAHjcMJiLi3HxcyEXsy707tLA5MU4OQSHIY"
-ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY")# 
+ANTHROPIC_API_KEY = sk-a15e7a03e3ee4e6aa79ff139ef464e79 
 # ==========================================================
 logging.basicConfig(
     format="%(asctime)s - %(levelname)s - %(message)s",
